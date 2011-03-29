@@ -1,0 +1,13 @@
+This small package provide a C++ header file to manage options given in a command line.
+
+An example of usage is given in main.cpp, just compile it and try:
+
+g++ -o test main.cpp
+
+And see what happens with:
+./test -h
+./test -i 35 -s try
+./test -i 12 -b
+./test
+./test -s
+...
